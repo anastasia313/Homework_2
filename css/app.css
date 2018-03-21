@@ -1,0 +1,134 @@
+.form-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: BigJohn, Tahoma, Arial, serif;
+    color: #48bf72;
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 700px;
+    height:400px;
+    margin: 50px auto;
+    font-family: Lato Bold, Tahoma, Arial, serif;
+    font-size: 16px;
+}
+
+.username, .email {
+    width: 335px;
+    height: 50px;
+    margin-bottom: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #3c4955;
+    border-left: 50px solid #3c4955;  
+    border-radius: 5px;
+    background-color: #f1f1f1 ;
+    position: relative;
+}
+
+.email {
+    float: right;
+}
+
+.input-username, .input-email{
+    width:90%;
+    height:94%;
+    padding-left: 20px;
+    background: #f1f1f1;
+    border: none; /* Убираем рамку */
+    outline: none; /*  Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    font-size: inherit;
+    font-family: inherit;
+}
+
+/*Image on border*/
+.image-username::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left:-34px;
+    background:url(../images/user.png) no-repeat;
+    background-size: 20px;
+}
+
+.image-email::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 16px;
+    left:-34px;
+    background:url(../images/mail.png) no-repeat;
+    background-size: 20px;
+}
+
+.image-textarea::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 22px;
+    left: 15px;
+    background:url(../images/crayon.png) no-repeat;
+    background-size: 20px;
+}
+/*Image on border*/
+
+.textarea-form {
+    position: relative;
+}
+
+.textarea-message {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #f1f1f1;
+    border: 2px solid #3c4955;
+    border-left: 50px solid #3c4955; 
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+    height: 230px;
+    margin-bottom: 30px;
+    padding: 20px;
+    outline: none; /* Убираем свечение в Chrome и Safari */
+}
+
+/*Arrow*/
+.textarea-form::before {
+    content: "";
+    position: absolute;
+    border-left: 6px solid #3c4955;
+    border-top: 6px solid transparent ;
+    border-bottom: 6px solid transparent ;
+    top: 28px; left: 50px;
+}
+
+.username::before, .email::before{
+    content: "";
+    position: absolute;
+    border-left: 6px solid #3c4955;
+    border-top: 6px solid transparent ;
+    border-bottom: 6px solid transparent ;
+    top: 18px;
+}
+/*Arrow*/
+
+.button-envoyer {
+    text-transform: uppercase;
+    width: 700px;
+    height: 50px;
+    background: #48bf72;
+    color: #ffffff;
+    border: 1px solid #48bf72;
+    border-radius: 5px;
+    font-family: Lato Bold, Tahoma, Arial, serif;
+    letter-spacing: 5px;
+}
+
+

@@ -1,0 +1,36 @@
+table,td,th {
+    border: 0.5px solid #000000;
+    border-collapse: collapse;
+
+}
+
+* {
+    text-align: center;
+}
+
+tfoot {
+    color: #00008f;
+    border: 5px double #000000;
+
+}
+.cell1 {
+    width: 130px;
+}
+.cell2 {
+    width: 260px;
+}
+.cell3 {
+    background: #008000;
+    color: #ffffff;
+}
+.cell4 {
+    width: 260px;
+}
+.cell5 {
+    width: 260px;
+}
+.cell6 {
+    width: 260px;
+    text-align: left;
+}
+
