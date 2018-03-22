@@ -1,14 +1,13 @@
-table,td,th {
+.border-settings {
     border: 0.5px solid #000000;
     border-collapse: collapse;
-
 }
 
 * {
     text-align: center;
 }
 
-tfoot {
+.footer {
     color: #00008f;
     border: 5px double #000000;
 
